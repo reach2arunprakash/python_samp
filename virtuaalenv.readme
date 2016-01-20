@@ -6,3 +6,7 @@ pip install virtualenv
 Create an Environment with virtualenv
 
 virtualenv my_blog_environment
+
+==================
+http://www.nltk.org/book/
+============
