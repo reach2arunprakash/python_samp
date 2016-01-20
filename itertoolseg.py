@@ -17,3 +17,8 @@ print mylist
 
 #compress
 print list(itertools.compress(mylist, [1,1,0,1]))
+
+import time
+print time.gmtime()
+current_time = time.localtime()
+print time.strftime('%Y-%m-%d %A', current_time)

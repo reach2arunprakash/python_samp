@@ -1,0 +1,8 @@
+Virtualenv lets you create virtual Python environments. Everything you install or remove in that environment stays there and other environments are not affected. Most importantly, you don't pollute the global package directory of your system. For example, if you want to test an unstable package, virtualenv is the best way to go. If the unstable module you're testing has some errors in the installation/uninstallation process, your system will not be affected by it. When you are ready to remove the new unstable module, what you need to do is just removing the virtualenv environment you created.
+Installing Virtualenv with pip
+
+pip install virtualenv
+
+Create an Environment with virtualenv
+
+virtualenv my_blog_environment
